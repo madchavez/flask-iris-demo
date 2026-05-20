@@ -14,7 +14,7 @@ jobs:
 
       - uses: huggingface/hub-sync@v0.1.0
         with:
-          github_repo_id: madchavez/flask-iris-ml-demo
-          huggingface_repo_id: YOUR_HF_USERNAME/flask-iris-ml-demo
+          github_repo_id: madchavez/flask-iris-demo
+          huggingface_repo_id: madchavez/flask-iris-demo
           hf_token: ${{ secrets.HF_TOKEN }}
           space_sdk: docker
